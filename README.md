@@ -34,7 +34,6 @@ lib/
    ```bash
    git clone https://github.com/username/minecraft-version-checker.git
    cd minecraft-version-checker
-````
 
 2. Install dependencies:
 
@@ -93,5 +92,3 @@ Contoh respon:
 ## 📜 Lisensi
 
 Proyek ini menggunakan lisensi **Apache License 2.0**.
-
-```
