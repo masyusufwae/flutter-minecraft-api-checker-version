@@ -1,4 +1,3 @@
-
 # 📦 Minecraft Version Checker
 
 Aplikasi Flutter sederhana untuk mengecek **versi terbaru Minecraft** (release & snapshot) serta menampilkan semua daftar versi yang tersedia. Data diambil langsung dari **API Mojang**.
@@ -8,7 +7,7 @@ Aplikasi Flutter sederhana untuk mengecek **versi terbaru Minecraft** (release &
 ## ✨ Fitur
 - 🔎 Menampilkan **versi release terbaru**
 - 🧪 Menampilkan **versi snapshot terbaru**
-- 📜 Daftar lengkap semua versi Minecraft (id, releaseTime, time)
+- 📜 Daftar lengkap semua versi Minecraft (`id`, `releaseTime`, `time`)
 - 🎨 Tampilan dengan Material 3 + tema warna coklat hangat
 
 ---
@@ -54,10 +53,7 @@ lib/
 ## 📡 Sumber Data
 
 Data diambil dari API resmi Mojang:
-
-```
-https://launchermeta.mojang.com/mc/game/version_manifest.json
-```
+👉 [https://launchermeta.mojang.com/mc/game/version\_manifest.json](https://launchermeta.mojang.com/mc/game/version_manifest.json)
 
 Contoh respon:
 
@@ -82,7 +78,7 @@ Contoh respon:
 
 ## 📸 Screenshot
 
-> <img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/8876dc44-bee8-4134-9519-0579fedd7748" />
+<img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/8876dc44-bee8-4134-9519-0579fedd7748" />
 
 ---
 
@@ -96,5 +92,6 @@ Contoh respon:
 
 ## 📜 Lisensi
 
-Proyek ini menggunakan lisensi **APACHE**.
+Proyek ini menggunakan lisensi **Apache License 2.0**.
 
+```
