@@ -74,13 +74,12 @@ Contoh respon:
 }
 ```
 
----
+
 
 ## 📸 Screenshot
 
 <img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/8876dc44-bee8-4134-9519-0579fedd7748" />
 
----
 
 ## 🛠️ Teknologi
 
