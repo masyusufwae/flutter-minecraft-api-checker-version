@@ -1,16 +1,100 @@
-# info_minecraft
 
-A new Flutter project.
+# 📦 Minecraft Version Checker
 
-## Getting Started
+Aplikasi Flutter sederhana untuk mengecek **versi terbaru Minecraft** (release & snapshot) serta menampilkan semua daftar versi yang tersedia. Data diambil langsung dari **API Mojang**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur
+- 🔎 Menampilkan **versi release terbaru**
+- 🧪 Menampilkan **versi snapshot terbaru**
+- 📜 Daftar lengkap semua versi Minecraft (id, releaseTime, time)
+- 🎨 Tampilan dengan Material 3 + tema warna coklat hangat
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Preview
+- Halaman utama menampilkan versi terbaru dan snapshot.
+- Daftar versi ditampilkan dalam **ListView** dengan kartu berwarna selang-seling.
+
+---
+
+## 📂 Struktur Proyek
+```
+
+lib/
+└── main.dart  # Entry point aplikasi
+
+````
+
+---
+
+## ⚙️ Instalasi & Menjalankan
+
+1. Clone repositori:
+   ```bash
+   git clone https://github.com/username/minecraft-version-checker.git
+   cd minecraft-version-checker
+````
+
+2. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Jalankan aplikasi:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📡 Sumber Data
+
+Data diambil dari API resmi Mojang:
+
+```
+https://launchermeta.mojang.com/mc/game/version_manifest.json
+```
+
+Contoh respon:
+
+```json
+{
+  "latest": {
+    "release": "1.21.1",
+    "snapshot": "24w33a"
+  },
+  "versions": [
+    {
+      "id": "1.21.1",
+      "type": "release",
+      "releaseTime": "2024-07-04T12:00:00+00:00",
+      "time": "2024-07-04T12:05:00+00:00"
+    }
+  ]
+}
+```
+
+---
+
+## 📸 Screenshot
+
+> <img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/8876dc44-bee8-4134-9519-0579fedd7748" />
+
+---
+
+## 🛠️ Teknologi
+
+* [Flutter](https://flutter.dev/)
+* [Dart](https://dart.dev/)
+* [http](https://pub.dev/packages/http)
+
+---
+
+## 📜 Lisensi
+
+Proyek ini menggunakan lisensi **APACHE**.
+
